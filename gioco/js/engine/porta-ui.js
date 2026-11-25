@@ -1,0 +1,1 @@
+(function(){"use strict";const t=typeof document<"u",n=Object.freeze([]),r={presente:t,query(e){return t?document.querySelector(e):null},queryAll(e){return t?document.querySelectorAll(e):n},byId(e){return t?document.getElementById(e):null}};globalThis.PortaUI=r})();

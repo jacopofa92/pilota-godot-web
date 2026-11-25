@@ -1,0 +1,1 @@
+const characterDatabase=[{id:"italia",name:"Regio Esercito"},{id:"austria",name:"k.u.k. Armee"}];function getCharacterDeck(i){const t=i==="austria"?"austriaca":"italiana";return{main:cardDatabase.filter(a=>a.origin==="ww1"&&a.fazione===t).map(a=>({id:a.id,qty:2}))}}
